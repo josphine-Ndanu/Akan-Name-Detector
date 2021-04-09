@@ -7,10 +7,9 @@
  function getAkanName() {
 
 
-     var MM = parseFloat(document.getElementById("MM").value);
-     var DD = parseFloat(document.getElementById("DD").value);
-     var year = parseFloat(document.getElementById("year").value);
-
+    var MM = parseFloat(document.getElementById("MM")).value;
+    var DD = parseFloat(document.getElementById("DD")).value;
+    var year = parseFloat(document.getElementById("year")).value;
+    
      alert(MM);
  }
- getAkanName();
