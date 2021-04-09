@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>AKAN</title>
+</head>
+
+<body>
+    <h1>Ghananian Akan Names</h1>
+    <form class="container">
+        <div>
+            <div>
+
+                <label>Enter Your Name.</label>
+                <input type="text" class="form-control" id="name" placeholder="Name here" required>
+                <label>Year</label>
+                <input type="number" class="form-control" id="year" placeholder="Year of birth" required min="1960"
+                    max="2021">
+                <label>Month</label>
+                <input type="number" class="form-control" id="month" placeholder="Month of birth" required min="1"
+                    max="12">
+
+                <label>Day</label>
+                <input type="number" class="form-control" id="day" placeholder="Date of birth" required min="1"
+                    max="31">
+            </div>
+            <div class="ggg">
+                <label>Gender</label><br>
+                <input type="radio" name="gender" id="male" value="male" checked> Male
+                <input type="radio" name="gender" id="female" value="female"> Female
+            </div>
+        </div>
+        <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+
+        <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+
+    </form>
+</body>
+
+</html>
