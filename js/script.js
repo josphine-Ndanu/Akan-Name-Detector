@@ -6,10 +6,16 @@
 
  function getAkanName() {
 
-
-    var MM = parseFloat(document.getElementById("MM")).value;
-    var DD = parseFloat(document.getElementById("DD")).value;
-    var year = parseFloat(document.getElementById("year")).value;
     
-     alert(MM);
+    var MM = parseInt(document.getElementById("month")).value;
+    var DD = parseInt(document.getElementById("day")).value;
+    var year = parseInt(document.getElementById("year")).value;
+    var dayBorn=( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+console.log(dayBorn);
+
  }
+ 
+ 
+ 
+ 
+ 
