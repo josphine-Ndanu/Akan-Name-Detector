@@ -14,11 +14,20 @@
 
      finalDay = (Math.floor(day));
 
-
-
-
-     console.log(finalday)
+    console.log(finalDay)
  }
+
+ //checked radio button
+function verifyGender(){
+var gender = document.getElementsByName("gender")
+if (gender[0].checked == true) {
+var gender = "male"
+}else if(gender[1].checked == true){
+var gender = "female"
+}else{
+    console.log(checked)
+}
+}
 
 
  var maleAkan = ["kwasi", "kwado", "kwabena", "kwaku", "Yaw", "Kofi", "Kwame"];
