@@ -10,7 +10,10 @@
      CC = year.substring(0, 2);
      YY = year.substring(2, 4);
 
-     if (DD<=0 || DD>31){
+     if (DD == "" || MM =="" ||year==""){
+alert("Fill all the fields ")
+     }
+     else if (DD<=0 || DD>31){
          alert("Invalid date")
      } else if (MM<=0 || MM>12){
         alert("Invalid month")
