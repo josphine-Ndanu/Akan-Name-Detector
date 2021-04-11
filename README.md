@@ -1,10 +1,9 @@
-#Anitas Kitchen
+#Akan name generator
 ## Author
 Josphine Ndanu
 
 ## Description
-This is a website menu containing all drinks, foods, and services provided at
-Anita's kitchen
+This project helps identify the day you were born then also ouputs your Ghananian Akan name based on the input you give.
 
 ### Prerequisites
 You should have git installed.
@@ -22,6 +21,8 @@ This will clone the repository into your local folder
 ### Technologies Used
  HTML
  CSS
+ js
+ bootsrap 5
  Git
 
 ### Live Site
