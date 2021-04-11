@@ -15,7 +15,7 @@ Use the following command for installation.
 To access this project on your local files, you can clone it using these steps
 
 Open your terminal
-lone using this command `$ git clone https://github.com/ndanu-josy/Anitas-Kitchen
+lone using this command `$ git clone https://github.com/josphine-Ndanu/Akan-Name-Detector
 This will clone the repository into your local folder
 
 
@@ -25,7 +25,7 @@ This will clone the repository into your local folder
  Git
 
 ### Live Site
-View [live](https://ndanu-josy.github.io/Anitas-Kitchen/)
+View [live](https://josphine-ndanu.github.io/Akan-Name-Detector/)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence
