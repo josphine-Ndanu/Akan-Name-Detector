@@ -10,6 +10,14 @@
      CC = year.substring(0, 2);
      YY = year.substring(2, 4);
 
+     if (DD<=0 || DD>31){
+         alert("Invalid date")
+     } else if (MM<=0 || MM>12){
+        alert("Invalid month")
+     }else{
+         console.log("Correct input")
+     }
+
      var day = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7 -1 ;
 
      finalDay = (Math.floor(day));
