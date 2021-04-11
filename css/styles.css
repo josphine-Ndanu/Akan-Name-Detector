@@ -1,18 +1,41 @@
 .all{
-    height: 100vh;
+    height: fit-content;
     background-image: url('../images/bg1.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 }
 .myForm{
 background-color: rgb(218, 194, 164);
+background-image: url("");
 float: right;
-width:50%;
+width: 40%;
 padding: 10px;
-margin: 20px;
+margin: px;
 opacity: 0.8;
-
 }
 .description{
     width: 80%;
+    color: white;
+   
+}
+.description h1{
+    color: yellow;
+    text-align: center;
+  
+    font-family: 'Helvetica Neue', sans-serif; font-size: 85px; font-weight: bold;  ;
+}
+.mybtn{
+    background-color: red;
+  
+    border: whitesmoke;
+    color: black;;
+    margin: 20px;
+}
+.mybtn:hover{
+    background-color:darkgreen;
+}
+.list{
+  
+   margin-left: 90px;
+  width: 40% ;
 }
