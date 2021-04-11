@@ -6,12 +6,11 @@
 }
 .myForm{
 background-color: rgb(218, 194, 164);
-background-image: url("");
 float: right;
-width: 40%;
 padding: 10px;
 margin: px;
 opacity: 0.8;
+
 }
 .description{
     width: 80%;
@@ -34,8 +33,15 @@ opacity: 0.8;
 .mybtn:hover{
     background-color:darkgreen;
 }
-.list{
-  
-   margin-left: 90px;
-  width: 40% ;
+
+.list h5{
+    color: yellow;
+}
+.data h5{
+color: yellow;
+
+}
+.info{
+    padding: 50px;
+   
 }
