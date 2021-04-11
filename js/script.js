@@ -19,7 +19,8 @@
              alert("Invalid month")
          } else if (MM <= 0 || MM > 12) {
              alert("Invalid month")
-         } else {
+         } 
+         else {
              console.log("Correct input") //test 
          }
 
@@ -48,9 +49,14 @@
          } else if (gender[1].checked == true) {
              var gender = "female"
 
-         } else {
+         } else if (!(gender [0].checked || gender[1].checked)){
+            alert("You must pick a gender")
+         }
+         else {
              console.log("checked")
          }
+
+        
 
          switch (gender) {
              case gender = "male":
