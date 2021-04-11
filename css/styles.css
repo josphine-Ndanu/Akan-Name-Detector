@@ -43,7 +43,7 @@ color: yellow;
 }
 .info{
     padding: 50px;
-   
+  
 
 }
 #output{
@@ -53,4 +53,12 @@ color: yellow;
 }
 #diff{
     color: black;
+}
+footer{
+    color: black;
+   text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+
 }
