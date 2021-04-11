@@ -114,3 +114,10 @@
          verifyGender();
          console.log("great");
      }
+
+     function reload(){
+        var y = document.getElementById("output");
+        y.style.output="none";
+        
+        location.reload();
+    }

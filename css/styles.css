@@ -44,4 +44,10 @@ color: yellow;
 .info{
     padding: 50px;
    
+
+}
+#output{
+    background-color: forestgreen;
+    color: white;
+  
 }
