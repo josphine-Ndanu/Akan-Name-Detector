@@ -1,7 +1,7 @@
 #Akan name generator
 
 Here's a working demo
-![](images/demo.png)
+![](images/finaldemo.png)
 ## Author
 Josphine Ndanu, josphinendanu3@gmail.com
 
