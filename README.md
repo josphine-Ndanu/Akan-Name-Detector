@@ -23,11 +23,15 @@ This will clone the repository into your local folder
 | Behavior            | Input                         | Output                        | 
 | ------------------- | ----------------------------- | ----------------------------- |
 | 
-| Day > 31 | 32 or more | Ivalid date |
+| Day > 31            | 32 or more                    | Ivalid date |
+| ------------------- | ----------------------------- | ----------------------------- |
 
-| Month > 12 | 13 or more | Ivalid month|
-| Gender is male | Male | Male Akan names |
-| Gender is female | Female | Female Akan names|
+| Month > 12          | 13 or more                    | Ivalid month|
+| ------------------- | ----------------------------- | ----------------------------- |
+| Gender is male      | Male                          | Male Akan names        |
+| ------------------- | ----------------------------- | ----------------------------- |
+| Gender is female    | Female                        | Female Akan names|
+| ------------------- | ----------------------------- | ----------------------------- |
 ### Technologies Used
  HTML
  CSS
