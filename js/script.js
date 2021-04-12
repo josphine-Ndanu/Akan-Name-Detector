@@ -11,7 +11,7 @@
      YY = year.substring(2, 4);
 
      
-         if (DD == "" || MM == "" || year == "") {
+         if (DD == " " || MM == " " || year == " ") {
              alert("Fill all the fields ")
          } else if (DD <= 0 || DD > 31) {
              alert("Invalid date")
