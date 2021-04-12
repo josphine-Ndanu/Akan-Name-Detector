@@ -1,4 +1,7 @@
 #Akan name generator
+
+Here's a working demo
+![](images/demo.png)
 ## Author
 Josphine Ndanu, josphinendanu3@gmail.com
 
